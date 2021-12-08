@@ -3,6 +3,7 @@
 define('AUS_NOVENA_URL', get_template_directory_uri());
 define('AUS_NOVENA_PATH', get_template_directory());
 
+require AUS_NOVENA_PATH . '/lib/AUS_Novena_Primary_Nav_Walker.php';
 
 function aus_novena_assets() {
 	wp_enqueue_style('bootstrap', AUS_NOVENA_URL . '/plugins/bootstrap/bootstrap.min.css', array(), '4.3.5', 'all');
@@ -22,3 +23,7 @@ function aus_novena_assets() {
 	wp_enqueue_script('script', AUS_NOVENA_URL . '/js/script.js', array(), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'aus_novena_assets');
+
+register_nav_menus(array(
+	'primary' => 'Primary navbar'
+));
