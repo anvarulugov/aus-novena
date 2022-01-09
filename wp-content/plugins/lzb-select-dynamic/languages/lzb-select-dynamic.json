@@ -1,0 +1,76 @@
+{
+   "domain": "lzb-select-dynamic",
+   "locale_data": {
+      "lzb-select-dynamic": {
+         "": {
+            "domain": "lzb-select-dynamic"
+         },
+         "Lzb Select Dynamic": [
+            ""
+         ],
+         "https://github.com/janwidmer/lzb-select-dynamic": [
+            ""
+         ],
+         "lazy-blocks custom control to offer a dynamic select containing wordpress posts, pages or categories": [
+            ""
+         ],
+         "Jan Widmer": [
+            ""
+         ],
+         "https://github.com/janwidmer": [
+            ""
+         ],
+         "Select Dynamic": [
+            ""
+         ],
+         "No items found": [
+            ""
+         ],
+         "Please Select": [
+            ""
+         ],
+         "Loading..": [
+            ""
+         ],
+         "Entity Type": [
+            ""
+         ],
+         "Allows you to select the entity type to render as select options": [
+            ""
+         ],
+         "Post Type": [
+            ""
+         ],
+         "Taxonomy Type": [
+            ""
+         ],
+         "Post": [
+            ""
+         ],
+         "Page": [
+            ""
+         ],
+         "Taxonomy": [
+            ""
+         ],
+         "Post type": [
+            ""
+         ],
+         "Allows you to select a custom post type. Defaults to \"Post\" if nothing is selected": [
+            ""
+         ],
+         "Taxonomy type": [
+            ""
+         ],
+         "Allows you to select a taxonomy type. Defaults to \"Category\" if nothing is selected": [
+            ""
+         ],
+         "Parent entity": [
+            ""
+         ],
+         "Allows you to restrict the select options to a certain parent entity, otherwise leave blank": [
+            ""
+         ]
+      }
+   }
+}

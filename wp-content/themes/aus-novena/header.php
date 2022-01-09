@@ -47,7 +47,7 @@
 	</div>
 	<nav class="navbar navbar-expand-lg navigation" id="navbar">
 		<div class="container">
-			<a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="<?php echo home_url(); ?>">
 				<img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="" class="img-fluid">
 			</a>
 

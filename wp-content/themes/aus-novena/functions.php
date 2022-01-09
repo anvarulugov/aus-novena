@@ -27,3 +27,9 @@ add_action('wp_enqueue_scripts', 'aus_novena_assets');
 register_nav_menus(array(
 	'primary' => 'Primary navbar'
 ));
+
+function lzb_block_ramove_wrapper( $allow_wrapper, $attributes, $context ) {
+	return false;
+}
+
+add_filter( 'lzb/block_render/allow_wrapper', 'lzb_block_ramove_wrapper', 10, 3 );
